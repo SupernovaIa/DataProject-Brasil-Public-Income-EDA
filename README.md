@@ -1,4 +1,4 @@
-# 🎯 Public Revenue Execution Analysis in Brazil
+# 🎯 EDA Public Revenue in Brasil
 
 ## 📖 Project Description 
 ![main_image](https://github.com/user-attachments/assets/6a16a61d-807f-4b05-bca1-010bcab4e9b9)
