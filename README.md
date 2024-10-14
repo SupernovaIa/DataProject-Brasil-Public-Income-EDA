@@ -1,7 +1,7 @@
 # 🎯 Public Revenue Execution Analysis in Brazil
 
 ## 📖 Project Description 
-main_image
+![main_image](https://github.com/user-attachments/assets/6a16a61d-807f-4b05-bca1-010bcab4e9b9)
 
 This project involves the analysis of public revenue execution in Brazil from 2013 to 2021. The aim is to identify discrepancies between projected and actual revenues, detect patterns over time, and evaluate the efficiency of different government bodies in managing revenue collection. The results will inform recommendations to improve the accuracy of revenue forecasts and enhance collection efficiency.
 
@@ -60,33 +60,37 @@ This project was developed using **Python 3.12**. To set up the project environm
 ### 4. Run the main analysis script:
    Once the environment is set up, you can run the Jupyter Notebooks one by one.
 
-Now you're ready to explore and analyze public revenue data from Brazil. Enjoy!
+Now you're ready to explore and analyze public revenue data from Brazil.
 
----
-
-This version includes links to the documentation of each required library, allowing users to find further installation instructions or explore the functionality of each package. Let me know if you need any additional changes!
+Aquí tienes la traducción mejorada del texto:
 
 ## 📊 Results and Conclusions
 
-The data analysis revealed the following insights:
+The data analysis provided the following insights:
 
-1. **Revenue Forecast vs. Actual Collection**:
-   - Significant deviations were found in corporate tax collection, where the actual values were consistently lower than expected. This indicates potential areas of inefficiency or external factors impacting revenue collection.
+- The datasets from different years are generally consistent and were easily unified. However, in the earlier years, it appears that all accounts were recorded at the end of the year rather than on the corresponding dates.
 
-2. **Temporal Evolution**:
-   - A consistent pattern of lower-than-expected collections was observed in the first quarter of each year, likely due to administrative delays or seasonal economic fluctuations.
-   - Certain months, like June and December, showed more accurate forecasts, possibly due to end-of-year adjustments.
+- There is a large number of missing values for `Posted Amount`. The available values do not seem sufficient to accurately reflect the accounts, suggesting that these entries may not have been properly filled out.
 
-3. **Performance by Department**:
-   - The Ministry of Finance displayed the highest efficiency, often exceeding its revenue targets. In contrast, some regional tax offices showed repeated underperformance, suggesting the need for localized improvements in tax collection strategies.
+- The `Budgeted Amount` also contain many missing values. The analysis indicates that, in some cases, budgets may have been recorded collectively for certain periods rather than itemized individually. Overall, there seems to be a slight overestimation, as the actual revenues consistently fall slightly below the forecasted amounts.
 
-🔄 **Next Steps**:
+- Regarding the temporal evolution, revenues increased over the years, except between 2016 and 2017, which could be attributed to Brazil’s economic crisis from 2014 to 2017 ([source](https://en.wikipedia.org/wiki/2014_Brazilian_economic_crisis)).
 
-- **Refine Forecasting Models**: Incorporate economic indicators and regional factors into the revenue prediction models to improve accuracy.
-- **Improve Underperforming Departments**: Analyze the causes behind underperformance in specific units and implement targeted strategies to increase efficiency.
-- **Optimize Collection Timing**: Adjust forecast models to account for seasonal or monthly variations in revenue collection.
+- Certain months show significant peaks in revenue:
 
-🤝 **Contributions**
+   * December 2016 seems to reflect an accumulation of entries at year-end, possibly a remnant of the earlier practice of recording all data at the end of the year.
+   * August and December 2020 may be related to COVID-19 policies, though a more detailed analysis would be needed to confirm this.
+
+- There is a large amount of data without a designated economic category (`No information`), particularly in 2017. This represents a potential area for improvement in data collection.
+
+- The variance in `Actual Amount` across all categories is significant, which suggests the need for further grouping or categorization based on the amounts involved.
+
+## 🔄 Next Steps:
+
+- Conduct a detailed analysis of the `Superior Agency` categories and perform targeted analyses on the individual `Agency` or `Unit Management` departments.
+- Analyze the specific entries' concepts and segment them by type to identify deeper areas for improvement. 
+
+## 🤝 Contributions
 
 Contributions to this project are welcome! Please follow these steps to contribute:
 
@@ -96,7 +100,6 @@ Contributions to this project are welcome! Please follow these steps to contribu
 
 Feel free to open an issue if you have suggestions or improvements.
 
-✒️ **Authors**
-- **Javier Carreira** - Data Analyst  
-Special thanks to the Brazilian Ministry of Finance for providing the data needed for this analysis.
-
+## ✒️ Authors
+- **Javier Carreira** - Main Developer - GitHub
+Special thanks to the team at Hack(io) for the opportunity to work on this project.
