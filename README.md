@@ -1,7 +1,8 @@
-# 🎯 EDA Public Revenue in Brasil
+# 🎯 EDA Public income in Brasil
+
+![main_image](https://github.com/user-attachments/assets/6a16a61d-807f-4b05-bca1-010bcab4e9b9)
 
 ## 📖 Project Description 
-![main_image](https://github.com/user-attachments/assets/6a16a61d-807f-4b05-bca1-010bcab4e9b9)
 
 This project involves the analysis of public revenue execution in Brazil from 2013 to 2021. The aim is to identify discrepancies between projected and actual revenues, detect patterns over time, and evaluate the efficiency of different government bodies in managing revenue collection. The results will inform recommendations to improve the accuracy of revenue forecasts and enhance collection efficiency.
 
