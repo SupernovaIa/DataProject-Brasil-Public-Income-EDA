@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def find_outliers_iqr(df, column, width = 1.5):
+def find_outliers_iqr(df, column, width=1.5):
     """
     Identifies outliers in a DataFrame column using the Interquartile Range (IQR) method.
 
@@ -45,7 +45,7 @@ def check_columns(data):
 
 
 
-def cleaning_columns(df, name: str):
+def cleaning_columns(df, name):
     """
     Cleans and renames columns in the dataframe by replacing code values with their corresponding names and adjusting the column structure.
 
@@ -72,10 +72,10 @@ def cleaning_columns(df, name: str):
     df.rename(columns={f'{name} Code': f'{name}'}, inplace=True)
     df.drop(columns=[f"{name} Name"], inplace = True)
 
-    return df
+    # return df
 
 
-def time_evolution(df, name:str, scale = None):
+def time_evolution(df, name, scale=None):
     """
     Generates a time evolution plot for a given column in the provided DataFrame, using a log scale on the y-axis.
 
@@ -107,7 +107,7 @@ def time_evolution(df, name:str, scale = None):
     plt.show()
 
 
-def box_plot(df, name:str, scale = None):
+def box_plot(df, name, scale=None):
     """
     Generates a box plot to visualize the distribution of a specified column grouped by economic categories, with an optional log scale.
 

@@ -89,17 +89,3 @@ The data analysis provided the following insights:
 
 - Conduct a detailed analysis of the `Superior Agency` categories and perform targeted analyses on the individual `Agency` or `Unit Management` departments.
 - Analyze the specific entries' concepts and segment them by type to identify deeper areas for improvement. 
-
-## 🤝 Contributions
-
-Contributions to this project are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Submit a pull request when you're ready.
-
-Feel free to open an issue if you have suggestions or improvements.
-
-## ✒️ Authors
-- **Javier Carreira** - Main Developer - GitHub
-Special thanks to the team at Hack(io) for the opportunity to work on this project.
