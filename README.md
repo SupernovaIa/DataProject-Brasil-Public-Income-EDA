@@ -37,12 +37,12 @@ This project was developed using **Python 3.12**. To set up the project environm
 
 ### 1. Clone the repository:
    ```bash
-   git clone https://github.com/SupernovaIa/Revenue-Analysis-Brazil.git
+   git clone https://github.com/SupernovaIa/Brasil-public-income-EDA
    ```
 
 ### 2. Navigate to the project directory:
    ```bash
-   cd Revenue-Analysis-Brazil
+   cd Brasil-public-income-EDA
    ```
 
 ### 3. Install the required libraries:
